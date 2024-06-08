@@ -1,0 +1,11 @@
+{
+   "students": [
+      {
+         "sno": 1,
+         "user": "sakthi",
+         "age": "30",
+         "course": "python",
+         "duration": "2 months"
+      }
+   ]
+}

@@ -1,0 +1,19 @@
+
+
+.playfair{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  font-size: xx-large;
+}
+.border{
+  border-left: 4px;
+  border-right: 4px;
+}
+.stud{
+  background-image: url(/static/image/harshan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
