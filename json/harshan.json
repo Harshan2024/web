@@ -13,6 +13,15 @@
             "age": "17",
             "course": "C and C++",
             "course_Duration": "1 month"
+        },
+        {
+            "sno": 3,
+            "Name": "R.Mahesh",
+            "age": "18",
+            "course": "HTML",
+            "course_Duration": "2 Month"
         }
+        
+       
     ]
 }
