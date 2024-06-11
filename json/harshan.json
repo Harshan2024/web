@@ -2,26 +2,10 @@
     "student": [
         {
             "sno": 1,
-            "Name": "R.Harshan",
-            "age": "17",
-            "course": "Java",
-            "course_Duration": "3 month"
-        },
-        {
-            "sno": 2,
-            "Name": "R.Harshan",
-            "age": "17",
-            "course": "C and C++",
-            "course_Duration": "1 month"
-        },
-        {
-            "sno": 3,
             "Name": "R.Mahesh",
             "age": "18",
-            "course": "HTML",
+            "course": "C and C++",
             "course_Duration": "2 Month"
         }
-        
-       
     ]
 }

@@ -11,3 +11,22 @@ def student_registration(Name,Age,Course,Duration):
     }
     data["student"].append(stud)    
     write_json(data)
+    
+def delete_stud(id):
+    data=read_json()
+    name=""
+    for i in data["student"]:
+        if i["sno"]==id:
+            name=i["Name"]
+            data["student"].remove(i)
+    a=1
+    for b in data["student"]:
+        b["sno"]=a     
+        a+=1
+        
+    write_json(data)        
+    return name    
+            
+            
+    
+    
