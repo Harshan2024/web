@@ -2,9 +2,30 @@
     "student": [
         {
             "sno": 1,
-            "Name": "R.Mahesh",
-            "age": "18",
+            "Name": "Reacher",
+            "age": "20",
+            "course": "Java",
+            "course_Duration": "3 month"
+        },
+        {
+            "sno": 2,
+            "Name": "ajay",
+            "age": "25",
+            "course": "Python",
+            "course_Duration": "3 Month"
+        },
+        {
+            "sno": 3,
+            "Name": "Paul",
+            "age": "30",
             "course": "C and C++",
+            "course_Duration": "3 Month"
+        },
+        {
+            "sno": 4,
+            "Name": "Rishi",
+            "age": "19",
+            "course": "Python",
             "course_Duration": "2 Month"
         }
     ]

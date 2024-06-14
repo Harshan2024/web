@@ -15,12 +15,21 @@ def homepage(name=""):
 @app.route("/delete/<id>",methods=["GET","POST"])
 def delete(id):
     name=delete_stud(int(id))
-    data=read_json()
-    route="/"+name
     # return render_template("harshan.html",students=data["student"],name=name)
-    return redirect(route)
+    return redirect("/"+name)
 
-
-
+@app.route("/update/<id>",methods=["GET","POST"])
+def update(id):
+    if request.method=="GET":
+        data=read_json()
+        for i in data["student"]:
+          if i["sno"]==(int(id)):
+              
+                return render_template("harshan_2.html",std=i)
+    else:
+            
+        update_stud(int(id),request.form["Name"],request.form["Age"],request.form["Course"],request.form["Duration"])
+        return redirect("/")
+        
 if __name__=="__main__":
     app.run(debug=True)
