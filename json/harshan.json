@@ -9,24 +9,24 @@
         },
         {
             "sno": 2,
-            "Name": "ajay",
+            "Name": "Ajay",
             "age": "25",
             "course": "Python",
             "course_Duration": "3 Month"
         },
         {
             "sno": 3,
-            "Name": "Paul",
-            "age": "30",
-            "course": "C and C++",
-            "course_Duration": "3 Month"
-        },
-        {
-            "sno": 4,
             "Name": "Rishi",
             "age": "19",
             "course": "Python",
             "course_Duration": "2 Month"
+        },
+        {
+            "sno": 4,
+            "Name": "R.Harshan",
+            "age": "17",
+            "course": "Python",
+            "course_Duration": "2 month"
         }
     ]
 }
