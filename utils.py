@@ -1,18 +1,19 @@
 import json
-def read_json():
+
+def read_json(FILE="json/harshan.json"):
     try:
-        with open("json/harshan.json") as f:
+        with open(FILE) as f:
             
            return json.load(f)
     except:
-        with open("json/harshan.json","w") as f:
+        with open(FILE,"w") as f:
             data={
                 "student":[]
             }    
             json.dump(data,f,indent=4)
-        with open("json/harshan.json") as f:
+        with open(FILE) as f:
             return  json.load(f)    
             
-def write_json(data):    
-    with open("json/harshan.json","w") as f:
+def write_json(data,FILE="json/harshan.json"):    
+    with open(FILE,"w") as f:
            json.dump(data,f,indent=4)     
