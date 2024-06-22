@@ -12,7 +12,10 @@ Session(app)
 app=Flask(__name__)
 def session_valid():
      try:
-        if  session["name"]:
+        print("SESSION")
+        print(session["name"])
+        if  session["name"] is not None:
+            print("tRUE")
             return True
         else:
             return False
@@ -42,11 +45,13 @@ def login():
  
 @app.route("/logout")
 def logout():
-    session["name"] = None
-    return redirect("/")
+    session.pop('name')
+    print("logout")
+    return redirect("/login")
 
 @app.route("/",methods=["GET","POST"])
 def homepage():
+ print(session_valid())
  if  session_valid():
     print("session valid")
     if request.method=="POST":
